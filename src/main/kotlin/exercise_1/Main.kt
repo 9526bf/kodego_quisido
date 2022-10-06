@@ -29,10 +29,7 @@ fun main() {
     var nationality: String = readln().toString()
     println("Have you ever been convicted to a felony?")
     val convicted: Boolean = readln().toBoolean()
-    println("If selectedfor employmentare you willing to a pre-employment drug testing?")
+    println("If selected for employment are you willing to a pre-employment drug testing?")
     val willing: Boolean = readln().toBoolean()
-
-
-
 
 }

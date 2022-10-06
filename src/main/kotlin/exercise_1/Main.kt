@@ -1,4 +1,7 @@
 fun main() {
+
+    /*Application For Employment*/
+
     println("Enter position:")
     var desiredPosition: String = readln()
     println("Desired salary:")

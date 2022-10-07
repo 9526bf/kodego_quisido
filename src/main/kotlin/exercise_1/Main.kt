@@ -14,6 +14,8 @@ fun main() {
     var firstName: String = readln()
     println("Middle name:")
     var middleName: String = readln()
+    println("Enter date of birth:")
+    var dateOfBirth: String = readln().toString()
     println("Address: Enter city")
     var address: String = readln()
     println("State")

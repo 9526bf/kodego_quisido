@@ -100,8 +100,6 @@ fun main() {
     var score5: Int = 73 + 74 + 75 + 76 / 4
     val grade5: Double = 74.5
 
-   // var studentControlNumberRange = 9526..9530
-
     if (studentControlNumber == 9526) {
         println("Control Number: $studentControlNumber9526")
         println("Full name: $lastName1, $firstName1 $middleName1")

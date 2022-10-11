@@ -6,36 +6,117 @@ fun main() {
     //After listing the different items, identify the characteristics of the items.
     //Use the proper data types.
 
-//    println("Do you want to borrow or return a book?")
-//    val response: String = readln().toString()
-//    println("Enter ID Number:")
-//    val idNumber: Int = readln().toInt()
 
+    var idNumber: Int? = null
     var name: String? = null
-    var bookTitle: String? = null
-    var needAnyHelp: String? = null
+    val bookTitle: String? = null
+    var response: String? = null
+    var availableBooks: String = "Business English, Computer Programming, Basic Algebra, Calculus 1"
+    val book1 = "Business English"
+    val returnDate1 = "October 14, 2022"
+    val book2 = "Computer Programming"
+    val returnDate2 = "October 16, 2022"
+    val book3 = "Basic Algebra"
+    val returnDate3 = "October 18, 2022"
+    val book4 = "Calculus 1"
+    val returnDate4 = "October 20, 2022"
 
+    println("Do you want to borrow a book?")
+    response = readLine().toString()
 
-    println("Enter your name:")
-    name = readLine().toString()
-    println("Hi $name")
-    println("Do you want to borrow a book? (Y/N)")
-    bookTitle = readLine().toString()
-    needAnyHelp = readLine().toString()
+    println("Enter ID Number:")
+    idNumber = readLine()?.toInt()
 
+    println("Enter complete name:")
+    name = readLine()?.toString()
 
-    if (needAnyHelp.lowercase() == "Y") {
-        println("Enter book title:")
+    println("Do you want to display available books?")
+    availableBooks = readLine().toString()
 
-        if (bookTitle == "available") {
-            println("$bookTitle")
+    if (response.lowercase() == "y") {
+        println("$book1, $book2, $book3, $book4")
 
-            if (needAnyHelp.lowercase() == "n") {
-                println("Don't forget I'm here...")
+        println("Enter title of book to borrow:")
+        availableBooks = readLine().toString()
+
+        if (book1 == "Business English") {
+            println("Return by: $returnDate1")
+
+            if (book2 == "Computer Programming") {
+                println("Return by: $returnDate2")
+
+                if (book3 == "Basic Algebra") {
+                    println("Return by: $returnDate3")
+
+                    if (book4 == "Calculus 1") {
+                        println("Return by: $returnDate4")
+                    }
+                }
             }
         }
     }
 }
+
+//            book1 = readLine().toString()
+//            println("Return date will be on $returnDate1")
+//
+//            book2 = readLine().toString()
+//            println("Return date will be on $returnDate2")
+//
+//            book3 = readLine().toString()
+//            println("Return date will be on $returnDate3")
+//
+//            book4 = readLine().toString()
+//            println("Return date will be on $returnDate4")
+
+//                    } else if (response.lowercase() == "n")
+//                        println("Return book title: $bookTitle ")
+//
+//
+//                    if (bookTitle == "Business English") {
+//                        println("Enter date returned:")
+//                        println("Enter date returned: $book1")
+//
+//                    } else if (bookTitle == "Computer Programming") {
+//                        println("Enter date returned: $book2")
+//
+//                    } else if (bookTitle == "Basic Algebra") {
+//                        println("Enter date returned: $book3")
+//
+//                    } else if (bookTitle == "Calculus 1") {
+//                        println("Enter date returned: $book4")
+//                    }
+//                }
+//            }
+
+
+
+
+
+
+
+
+//            println("Enter your name: $name")
+//            println("Available Books: $availableBooks")
+
+
+
+//    bookTitle = readLine().toString()
+//    needAnyHelp = readLine().toString()
+
+//
+//    if (needAnyHelp.lowercase() == "Y") {
+//        println("Enter book title: = $bookTitle")
+//
+//        if (bookTitle == "available") {
+//            println("$bookTitle")
+//
+//            if (needAnyHelp.lowercase() == "n") {
+//                println("Don't forget I'm here...")
+//            }
+//        }
+//    }
+
 
 //            }else {
 //                println("Oh okay...")

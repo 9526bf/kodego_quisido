@@ -11,11 +11,11 @@ fun main() {
 
 //Student1
     val studentControlNumber9526: Int = 9526
-    val lastName1 = "Johnson"
-    val firstName1: String = "David"
-    val middleName1: String = "Ford"
-    val dateOfBirth1: String = "March 9, 1974"
-    val address1: String = "Iloilo City"
+    val lastName1 =  "Johnson"
+    val firstName1 = "David"
+    val middleName1 = "Ford"
+    val dateOfBirth1 = "March 9, 1974"
+    val address1 = "Iloilo City"
     val mobileNumber1: Long = 9812685178
     val classAndSection1: String = "Mobile App Development - MD2P"
 
@@ -28,12 +28,12 @@ fun main() {
     val grade1: Double = 90.5
 
 //Student 2
-    val studentControlNumber9527: Int = 9527
-    val lastName2: String = "Parkinson"
-    val firstName2: String = "Matthew"
-    val middleName2: String = "Jackson"
-    val dateOfBirth2: String = "July 29, 1984"
-    val address2: String = "Quezon City"
+    val studentControlNumber9527 = 9527
+    val lastName2 = "Parkinson"
+    val firstName2 = "Matthew"
+    val middleName2 = "Jackson"
+    val dateOfBirth2 = "July 29, 1984"
+    val address2 = "Quezon City"
     val mobileNumber2: Long = 9567766918
     val classAndSection2: String = "Mobile App Development - MD2P"
 
@@ -46,14 +46,14 @@ fun main() {
     val grade2: Double = 89.25
 
 //Student 3
-    val studentControlNumber9528: Int = 9528
-    val lastName3: String = "Collins"
-    val firstName3: String = "Simon"
-    val middleName3: String = "Monroe"
-    val dateOfBirth3: String = "July 2, 1986"
-    val address3: String = "Cebu City"
+    val studentControlNumber9528 = 9528
+    val lastName3 = "Collins"
+    val firstName3 = "Simon"
+    val middleName3 = "Monroe"
+    val dateOfBirth3 = "July 2, 1986"
+    val address3 = "Cebu City"
     val mobileNumber3: Long = 9213685178
-    val classAndSection3: String = "Mobile App Development - MD2P"
+    val classAndSection3 = "Mobile App Development - MD2P"
 
     var score3Week1 = 87
     var score3Week2 = 85
@@ -64,14 +64,14 @@ fun main() {
     val grade3: Double = 81.75
 
 //Student 4
-    val studentControlNumber9529: Int = 9529
-    val lastName4: String = "Jefferson"
-    val firstName4: String = "Jay"
-    val middleName4: String = "Jones"
-    val dateOfBirth4: String = "April 2, 1985"
-    val address4: String = "Davao City"
+    val studentControlNumber9529 = 9529
+    val lastName4 = "Jefferson"
+    val firstName4 = "Jay"
+    val middleName4 = "Jones"
+    val dateOfBirth4 = "April 2, 1985"
+    val address4 = "Davao City"
     val mobileNumber4: Long = 9367329568
-    val classAndSection4: String = "Mobile App Development - MD2P"
+    val classAndSection4 = "Mobile App Development - MD2P"
 
     var score4Week1 = 91
     var score4Week2 = 89
@@ -83,14 +83,14 @@ fun main() {
 
 
 //Student 5
-    val studentControlNumber9530: Int = 9530
-    val lastName5: String = "Monroe"
-    val firstName5: String = "Marilyn"
-    val middleName5: String = "Joe"
-    val dateOfBirth5: String = "April 27, 1980"
-    val address5: String = "Valenzuela City"
+    val studentControlNumber9530 = 9530
+    val lastName5 = "Monroe"
+    val firstName5 = "Marilyn"
+    val middleName5 = "Joe"
+    val dateOfBirth5 = "April 27, 1980"
+    val address5 = "Valenzuela City"
     val mobileNumber5: Long = 9394186347
-    val classAndSection5: String = "Mobile App Development - MD2P"
+    val classAndSection5 = "Mobile App Development - MD2P"
 
     var score5Week1 = 73
     var score5Week2 = 74

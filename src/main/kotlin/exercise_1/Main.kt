@@ -38,7 +38,7 @@ fun main() {
 
     var schoolName3: String? = ("null")
     var schoolLocation3: String? = ("null")
-    var tearsAtttended3: String? = ("null")
+    var yearsAtttended3: String? = ("null")
     var degreeReceived3: String? = ("null")
     var major3: String = ("null")
 

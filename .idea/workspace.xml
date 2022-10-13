@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f627415-f19e-4389-b333-bf0a57161794" name="Changes" comment="added exercise 1 package&#10;added Main.kt in exercise_1&#10;added activity_01_a">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2f627415-f19e-4389-b333-bf0a57161794" name="Changes" comment="added exercise 1 package&#10;added Main.kt in exercise_1&#10;added activity_01_a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665659210732</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added exercise 1 package&#10;added Main.kt in exercise_1&#10;added activity_01_a">
+      <created>1665660858429</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665660858429</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added exercise 1 package&#10;added Main.kt in exercise_1&#10;added activity_01_a">
+      <created>1665660883552</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665660883552</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
